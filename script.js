@@ -10,7 +10,7 @@ function writePassword() {
   var letters='abcdefghijklmnopqrstuvwxyz';
   var upper= letters.toUpperCase();
   var numbers='0123456789';
-  var special='!@#$%^&*_+-=';
+  var special='!#$%&()*+,-./:;<=>?@[\]^_`{|}~';
   var len;
   // The condition in the while loop is becomes true when the number is between 8 and 128
   // When len<8 then the boolean is false which the ! makes it true which allos the loop to keep running.
